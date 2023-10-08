@@ -1,0 +1,19 @@
+.logo-text-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido */
+  margin-right: 20px; /* Espaciado a la derecha de cada elemento */
+  
+}
+
+.nav {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0 17rem;
+  background-color: #214274;
+}
+.img1{
+  border-radius: 18px;
+}
