@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card .title {
+    margin-right: 50px;
+    flex: 1;
+    margin-left: 70px; /* Espacio entre la imagen y el título */
+  }
+  
+  .card button {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Agrega este selector para el diseño de columna dentro de .title */
+  .card .title > div {
+    display: flex;
+    flex-direction: column; /* Cambia a una columna vertical */
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Agrega una transición suave al efecto de hover */
+  }
+  
+  .card img:hover {
+    transform: scale(1.1); /* Escala la imagen en un 110% al hacer hover */
+  }
+  
